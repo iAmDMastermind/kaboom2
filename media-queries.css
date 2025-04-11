@@ -1,0 +1,100 @@
+@media (min-width: 1024px) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    
+    .text-overlay {
+        padding: 1rem;
+    }
+    
+    .title {
+        font-size: 1.25rem;
+    }
+    
+    .teaser {
+        font-size: 16px;
+    }
+    
+    .rating-badge {
+        width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-content {
+        aspect-ratio: 2/3;
+    }
+    
+    .badge {
+        font-size: 0.75rem;
+    }
+}
+
+section{
+    display: flex;
+    height: 620px;
+    width: 90%;
+    flex-direction: row;
+    margin: 5px;
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 5px 20px 5px 0px;
+}
+
+
+@media (max-width: 470px){
+    header ul{
+        display: none;
+    }
+}
+
+@media (min-width:471px){
+    #menubar{
+        display: none;
+    }
+}
+
+@media (max-width: 738px){
+    .sub-content{
+        display: none;
+    }
+
+    .content-text{
+        color: #780000;
+    }
+
+    #content{
+        background-size: 585px 331px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .yfnsm{
+        background-image: url(./graphics/images\ \(22\).jpeg);
+    }
+
+    .capt-america4{
+        background-image: url(./graphics/capitan.jpg);
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .articles-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .articles-container {
+        grid-template-columns: 1fr;
+    }
+}
